@@ -1,0 +1,86 @@
+# 📁 统计建模大赛项目Git忽略文件
+
+# 数据文件
+/data/
+!/data/raw/example_data.txt
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 日志文件
+*.log
+logs/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 大型数据文件
+*.csv
+*.xlsx
+*.xls
+*.dta
+*.sav
+*.rdata
+*.rda
+
+# 二进制文件
+*.pdf
+*.docx
+*.doc
+*.zip
+*.rar
+*.7z
+
+# 环境配置
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 依赖包
+node_modules/
+venv/
+env/
+.venv/
+
+# 编译输出
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 文档生成
+build/
+dist/
+*.egg-info/
+
+# 测试文件
+test/
+tests/
+*.test
+
+# 备份文件
+backup/
+*.back
+
+# 大型媒体文件
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+
+# 注意：提交时需要的重要文件不要忽略
+# 论文、报告等最终成果需要手动管理
