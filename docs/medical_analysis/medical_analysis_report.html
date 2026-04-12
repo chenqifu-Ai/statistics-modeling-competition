@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 医保与医疗资源配置综合分析报告</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        h1 {
+            text-align: center;
+            color: #3498db;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        .highlight {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #3498db;
+        }
+        .timeline {
+            margin: 30px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 医保与医疗资源配置综合分析报告</h1>
+        
+        <div class="section">
+            <h2>🎯 分析框架概述</h2>
+            <p>基于2011-2024年医疗数据，深度分析医保支出、医疗资源配置与人口老龄化的关系，为政策制定提供数据支撑。</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">0.997</div>
+                <p>医保支出-中医医院数相关系数</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">103%</div>
+                <p>中医诊疗人次增长率(2011-2024)</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">4.5%</div>
+                <p>中医医院年均增长率</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📈 核心发现</h2>
+            <div class="highlight">
+                <h3>🏥 医院数量趋势对比</h3>
+                <ul>
+                    <li><strong>综合医院</strong>: 14,328个(2011) → 20,257个(2024)，2020年后进入平台期</li>
+                    <li><strong>中医医院</strong>: 2,831个(2011) → 5,053个(2024)，持续稳定增长</li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <h3>👥 诊疗人次增长分析</h3>
+                <ul>
+                    <li><strong>2011年</strong>: 3.61亿人次</li>
+                    <li><strong>2024年</strong>: 7.32亿人次(历史新高)</li>
+                    <li><strong>累计增长</strong>: 103%，实现翻倍</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 相关性分析结果</h2>
+            <table>
+                <tr><th>变量对</th><th>相关系数(r)</th><th>显著性(p)</th></tr>
+                <tr><td>医保支出 - 中医医院数</td><td>0.997</td><td><0.001***</td></极tr>
+                <tr><td>医保支出 - 老年人口</td><td>0.992</td><t极d><0.001***</td></tr>
+                <tr><td>医保支出 - 综合医院数</td><td>0.929</td><td><0.001***</td></tr>
+                <tr><td>老年人口 - 中医医院数</td><td>0.997</td><td><0.001***</td></tr>
+            </table>
+        </div>
+
+        <div class="timeline">
+            <h2>⏰ 分析执行时间表</h2>
+            <ul>
+                <li><strong>第一阶段(1-2周)</strong>: 数据收集清洗 + 描述性分析</li>
+                <li><strong>第二阶段(2-3周)</strong>: 统计建模 + 回归分析</li>
+                <li><strong>第三阶段(1-2周)</strong>: 政策评估 + 报告撰写</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ 技术实施方案</h2>
+            <table>
+                <tr><th>分析类型</th><th>技术工具</th><th>主要指标</th></tr>
+                <tr><td>数据处理</td><td>Pandas, NumPy, SQL</td><td>数据清洗和整合</td></tr>
+                <tr><td>统计分析</td><td>SciPy, Statsmodels</td><td>相关性检验和回归</td></tr>
+                <tr><td>机器学习</td><td>Scikit-learn</td><td>预测建模<极/td></tr>
+                <tr><td>时间序列</td><td>Prophet, ARIMA</td><td>趋势分析和预测</td></tr>
+                <tr><td>可视化</td><td>Matplotlib, Plotly</td><td>数据呈现和报告</td></tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>🎯 预期成果和政策建议</h2>
+            <div class="highlight">
+                <h3>📋 分析报告内容</h3>
+                <ol>
+                    <li>执行摘要和主要发现</li>
+                    <li>医疗资源配置现状分析</li>
+                    <li>未来需求趋势预测</li>
+                    <li>政策效果评估</li>
+                    <li>具体实施方案建议</li>
+                </ol>
+            </div>
+
+            <div class="highlight">
+                <h3>💡 政策建议方向</h3>
+                <ul>
+                    <li>加大中医药发展专项资金投入</li>
+                    <li>创新中西医结合服务模式</li>
+                    <li>改革医保支付方式</li>
+                    <li>加强中医药人才培养和科研支持</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding: 20px; background: #e8f5e8; border-radius: 8px;">
+            <h3>📧 报告信息</h3>
+            <p><strong>生成时间</strong>: 2026年4月12日</p>
+            <p><strong>数据周期</strong>: 2011-2024年</p>
+            <p><strong>分析目标</strong>: 医保支出优化和医疗资源配置</p>
+        </div>
+    </div>
+</body>
+</html>
