@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-04-14T03:18:12.843398",
+  "analysis": {
+    "highly_relevant": [
+      {
+        "item": "中医医院数量",
+        "use_case": "统计建模核心指标",
+        "relevance": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "item": "门诊量和住院量",
+        "use_case": "服务量统计模型",
+        "relevance": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "item": "中医药vs西医药占比",
+        "use_case": "中西医结合分析",
+        "relevance": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "item": "药费占比结构",
+        "use_case": "费用统计模型",
+        "relevance": "⭐⭐⭐⭐"
+      },
+      {
+        "item": "医院床位数据",
+        "use_case": "资源配置模型",
+        "relevance": "⭐⭐⭐⭐"
+      },
+      {
+        "item": "多年趋势数据",
+        "use_case": "时间序列模型",
+        "relevance": "⭐⭐⭐⭐⭐"
+      }
+    ],
+    "not_relevant": [
+      {
+        "item": "美国华盛顿特区医院数据",
+        "reason": "地域不相关"
+      },
+      {
+        "item": "单一时间点数据",
+        "reason": "无法做时间序列分析"
+      },
+      {
+        "item": "非中医药数据",
+        "reason": "主题不符"
+      }
+    ]
+  },
+  "recommendation": {
+    "china_health_yearbook": "必须下载保存",
+    "dc_hospital_data": "不保存，可删除"
+  }
+}

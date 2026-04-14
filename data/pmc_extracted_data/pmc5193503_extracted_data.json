@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-04-14T03:34:08.470451",
+  "paper_info": {
+    "pmid": "PMC5193503",
+    "title": "An investigation Into Traditional Chinese Medicine Hospitals in China",
+    "authors": "Wang L, Suo S, Li J, Hu Y, Li P, Wang Y, Hu H",
+    "journal": "Int J Health Policy Manag",
+    "year": 2017,
+    "doi": "10.15171/ijhpm.2016.72",
+    "data_sources": [
+      "China Health Statistical Yearbook（中国卫生统计年鉴）",
+      "Extracts of Traditional Chinese Medicine Statistics（中医药统计提要）"
+    ],
+    "research_scope": {
+      "subject": "中医医院发展趋势研究",
+      "time_period": "历史数据分析",
+      "location": "中国"
+    },
+    "key_findings": {
+      "outpatient": {
+        "drug_fees": "药费占医院收入最大部分",
+        "tcm_vs_wm": "门诊中医药需求更高",
+        "tcm_dominant": "中医医院门诊服务以中医药为主"
+      },
+      "inpatient": {
+        "wm_prevalent": "住院医疗服务以西医药为主",
+        "tcm_rehabilitation": "中医药主要用于康复治疗",
+        "wm_drugs_higher": "住院西医药需求更高"
+      }
+    },
+    "statistical_methods": [
+      "定量数据分析（宏观层面）",
+      "定性数据收集（微观层面）",
+      "访谈和二手资料收集"
+    ],
+    "conclusion": "中医医院在保持中医药主导地位的同时，结合西医药以提供更全面的医疗服务"
+  },
+  "extractable_data": {
+    "indicator_type": "中医药医院发展指标",
+    "indicators": [
+      {
+        "name": "中医医院数量",
+        "type": "时间序列数据",
+        "source": "中国卫生统计年鉴",
+        "use_case": "增长趋势建模",
+        "relevance": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "name": "门诊量",
+        "type": "时间序列数据",
+        "source": "中国卫生统计年鉴",
+        "use_case": "服务量建模",
+        "relevance": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "name": "住院量",
+        "type": "时间序列数据",
+        "source": "中国卫生统计年鉴",
+        "use_case": "服务量建模",
+        "relevance": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "name": "药费占比",
+        "type": "比例数据",
+        "source": "中国卫生统计年鉴",
+        "use_case": "费用结构分析",
+        "relevance": "⭐⭐⭐⭐"
+      },
+      {
+        "name": "中医药vs西医药占比",
+        "type": "对比数据",
+        "source": "中医药统计提要",
+        "use_case": "中西医结合分析",
+        "relevance": "⭐⭐⭐⭐⭐"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-04-14T03:34:08.471138",
+  "paper_info": {
+    "pmid": "PMC9893072",
+    "title": "Comparison of Quality of Life Between Breast Cancer Patients Treated With and Without Adjunctive Traditional Chinese Medicine in Taiwan",
+    "authors": "Chu YR, Kung PT, Liu LC, et al",
+    "journal": "Integr Cancer Ther",
+    "year": 2023,
+    "doi": "10.1177/15347354221150907",
+    "study_design": {
+      "type": "对比研究",
+      "groups": [
+        "TCM组（中医药治疗）",
+        "非TCM组（无中医药治疗）"
+      ],
+      "matching": "1:1匹配",
+      "time_period": "2018-2019年"
+    },
+    "sample_data": {
+      "total_surveyed": 543,
+      "included_in_study": 450,
+      "hospitals": 7,
+      "criteria": "乳腺癌I、II、III期，接受切除术"
+    },
+    "outcome_measures": {
+      "eq5d_score": {
+        "tcm_group": 81.6,
+        "tcm_std": 11.67,
+        "non_tcm_group": 78.8,
+        "non_tcm_std": 13.1,
+        "p_value": "<0.05"
+      },
+      "quality_of_life_difference": {
+        "adjusted_difference": 3.45,
+        "p_value": 0.002
+      },
+      "stage_analysis": {
+        "stage_ii": {
+          "difference": 5.58,
+          "p": "<0.05"
+        },
+        "stage_iii": {
+          "difference": 4.35,
+          "p": "<0.05"
+        }
+      }
+    },
+    "statistical_methods": [
+      "t检验",
+      "ANOVA方差分析",
+      "条件多元回归模型",
+      "分层分析"
+    ],
+    "conclusion": "接受辅助中医药治疗的乳腺癌患者生活质量更高"
+  }
+}
