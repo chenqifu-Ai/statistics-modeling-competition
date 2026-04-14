@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-04-14T02:59:45.266134",
+  "source": "Data.gov - US Government Open Data",
+  "total_datasets": 1,
+  "total_size": 4861,
+  "datasets": [
+    {
+      "name": "DC Hospitals",
+      "filename": "DC_Hospitals_20260414.csv",
+      "size": 4861,
+      "rows": 17,
+      "source": "哥伦比亚特区"
+    }
+  ]
+}
